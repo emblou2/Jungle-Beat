@@ -1,4 +1,4 @@
-Project: Jungle Beats
+Project 1: Jungle Beat
 Module 1 Turing School
 
 A drum machine that's backed by a linked list.
