@@ -24,7 +24,7 @@ class NodeTest < Minitest::Test
     assert_equal nil, node.link
   end
 
-  def test_a_node_does_not_have_to_be_nil
+  def test_a_node_link_does_not_have_to_be_nil
     node = Node.new("ping", 1)
     assert_equal 1, node.link
   end
