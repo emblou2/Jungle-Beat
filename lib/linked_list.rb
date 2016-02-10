@@ -9,4 +9,11 @@ class LinkedList
 
   def append
   end
+
+  def prepend(data)
+    new = Node.new(data, @head)
+    @head = new
+  end
+
+
 end

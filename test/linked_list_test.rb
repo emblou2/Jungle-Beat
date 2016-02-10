@@ -35,6 +35,7 @@ class LinkedListTest < Minitest::Test
   end
 
   def test_it_appends
+    skip
     node = Node.new(8)
     l = LinkedList.new(node)
     l.append("stuff")
@@ -42,6 +43,11 @@ class LinkedListTest < Minitest::Test
   end
 
   def test_it_prepends
+    node = Node.new(8)
+    second_node = Node.new("something", node)
+    l = LinkedList.new(second_node)
+    l.prepend("prepended stuff")
+    assert_equal "prepended stuff", l.head.data
   end
 
   def test_it_inserts
