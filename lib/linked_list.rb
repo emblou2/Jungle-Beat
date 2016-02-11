@@ -1,5 +1,5 @@
 require_relative 'node'
-#require 'pry'            # ~> LoadError: cannot load such file -- pry
+require 'pry'
 
 class LinkedList
 

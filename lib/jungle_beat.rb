@@ -1,8 +1,8 @@
-#require 'pry'                   # ~> LoadError: cannot load such file -- pry
-require 'minitest/autorun'      # => true
-require 'minitest/pride'        # => true
-require_relative 'node'         # => true
-require_relative 'linked_list'  # ~> NoMethodError: undefined method `insert' for #<LinkedList:0x007fdaf3872370>
+require 'pry'
+require 'minitest/autorun'
+require 'minitest/pride'
+require_relative 'node'
+require_relative 'linked_list'
 
 
 class JungleBeat
